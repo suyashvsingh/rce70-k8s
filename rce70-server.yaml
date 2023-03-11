@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rce70-server
-          image: suyashvsingh/rce70-server
+          image: suyashvsingh/rce70-server:v1.0
           env:
             - name: PORT
               value: "5000"
