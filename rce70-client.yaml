@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: suyashvsingh/rce70-client:v1.0
+          image: suyashvsingh/rce70-client:v3.0
           ports:
             - containerPort: 80
 ---
